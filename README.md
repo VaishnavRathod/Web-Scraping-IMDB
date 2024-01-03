@@ -1,25 +1,28 @@
 # Web-Scraping-IMDB
-This project aims to develop a Python program that can automatically scrapes the data from the IMDB top 250 rated movies.
-# What is Clustering?
-A way of grouping the data points into different clusters, consisting of similar data points. The objects with the possible similarities remain in a group that has less or no similarities with another group. **Link**: https://www.javatpoint.com/clustering-in-machine-learning
+This project aims to develop a Python program that can automatically scrapes the data from the IMDB top 250 rated movies website amd extracts essential information such as 
+- Rank
+- Title (Movie Name)
+- Released (Year)
+- Rating (Out of 10)
+- Genre (Drama, Crime,...)
+- Description
+- And other details (Commented in the script).
+  
+The Extracted data is further store in the structured format like .csv file and can be used for further analysis and exploration.
 
-![info](https://www.analyticsvidhya.com/wp-content/uploads/2016/11/clustering.png)
+The script also includes the *progress bar with time elasped* which will help to know how much data has been extracted into structured format. 
 
-## Customer_Segementation
-The [Dataset](https://github.com/VaishnavRathod/Customer_Segementation/blob/main/Dataset/Mall_Customers.csv) is containing the information of customers that have visited a mall for shopping. So, the mall owner wants to find some patterns or some particular behavior of his customers using the dataset information. Below is the image representing the information for the dataset: 
+# What is IMDB?
+IMDb (an acronym for Internet Movie Database)[2] is an online database of information related to films, television series, podcasts, home videos, video games, and streaming content online – including cast, production crew and personal biographies, plot summaries, trivia, ratings, and fan and critical reviews. IMDb began as a fan-operated movie database on the Usenet group "rec.arts.movies" in 1990, and moved to the Web in 1993. Since 1998, it has been owned and operated by IMDb.com, Inc., a subsidiary of Amazon.
 
-![info](https://github.com/VaishnavRathod/Customer_Segementation/assets/90707178/809a6986-a49f-45de-9d2a-fc2dfbd2f848)
-![data](https://github.com/VaishnavRathod/Customer_Segementation/assets/90707178/1d505231-d7ae-42bd-afd3-0fd85b3f91cf)
-![Stats](https://github.com/VaishnavRathod/Customer_Segementation/assets/90707178/a1b2de15-f4ab-4893-8457-872827a6fb19)
+![Alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/575px-IMDB_Logo_2016.svg.png)
 
-## CLustering Result:
-![8](https://github.com/VaishnavRathod/Customer_Segementation/assets/90707178/5a153105-dfd4-49e9-b2b0-89702c63be73)
-- RED: Mid Annual Income and Mid Spending Score.
-- Blue: High Annual Income and Low Spending Score.
-- Green: Low Annual Income and Low Spending score.
-- Yellow: Low Income and High Spending Score.
-- Pink: High Income and High Spending  Score
+# Project Objective:
+- Design and implement a Python script using libraries like requests and BeautifulSoup to access and parse HTML content from the IMDB Top 250 Shows website. [LINK](https://m.imdb.com/chart/top/)
+- Extracting specific data elements from HTML content including show title, rating, release year, genre and description of the movies.
+- The data extracted is stored in the structured file format like .csv file ensuring proper formatting and organization of data.
+- Test the scraper script to ensure it accurately extract data from the website and produces a valid csv file.
 
-## The final result is based on [Silhouette Score](https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html)
-Silhouette Coefficient or silhouette score is a metric used to calculate the goodness of a clustering technique. Its value ranges from -1 to 1. 1: Means clusters are well apart from each other and clearly distinguished.
+# Project Result:
+The following project has the output of Top 250 Rated IMDB Movies list in the .CSV file format. It is available in the repository as top_250_shows.csv.  
 
