@@ -1,4 +1,4 @@
-# Web-Scraping-IMDB-
+# Web-Scraping-IMDB
 This project aims to develop a Python program that can automatically scrapes the data from the IMDB top 250 rated movies.
 # What is Clustering?
 A way of grouping the data points into different clusters, consisting of similar data points. The objects with the possible similarities remain in a group that has less or no similarities with another group. **Link**: https://www.javatpoint.com/clustering-in-machine-learning
