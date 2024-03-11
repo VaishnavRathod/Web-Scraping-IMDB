@@ -1,5 +1,5 @@
 # Web-Scraping-IMDB
-This project aims to develop a Python program that can automatically scrapes the data from the IMDB top 250 rated movies website amd extracts essential information such as 
+This project aims to develop a Python program that can automatically scrapes the data from the IMDB top 250 rated movies website and extracts essential information such as 
 - Rank
 - Title (Movie Name)
 - Released (Year)
@@ -10,7 +10,7 @@ This project aims to develop a Python program that can automatically scrapes the
   
 The Extracted data is further store in the structured format like .csv file and can be used for further analysis and exploration.
 
-The script also includes the *progress bar with time elasped* which will help to know how much data has been extracted into structured format. 
+The script also includes the *progress bar with time elapsed* which will help to know how much data has been extracted into structured format. 
 
 # What is IMDB?
 IMDb (an acronym for Internet Movie Database)[2] is an online database of information related to films, television series, podcasts, home videos, video games, and streaming content online – including cast, production crew and personal biographies, plot summaries, trivia, ratings, and fan and critical reviews. IMDb began as a fan-operated movie database on the Usenet group "rec.arts.movies" in 1990, and moved to the Web in 1993. Since 1998, it has been owned and operated by IMDb.com, Inc., a subsidiary of Amazon.
